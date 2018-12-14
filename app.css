@@ -10,6 +10,11 @@ body {
     margin: 0
 }
 
+.modal-dialog {
+    max-width: 1000px;
+    align-content: center;
+}
+
 article,
 aside,
 details,
@@ -546,7 +551,7 @@ th {
 }
 
 .mt4 {
-    margin-top: 4rem
+    margin-top: 2rem
 }
 
 .mr4 {
@@ -2392,8 +2397,8 @@ th {
         padding-left: 4rem
     }
     .lg-px4 {
-        padding-left: 4rem;
-        padding-right: 4rem
+        /* padding-left: 4rem;
+        padding-right: 4rem */
     }
     .lg-py4 {
         padding-top: 4rem;
